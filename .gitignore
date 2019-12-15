@@ -1,0 +1,10 @@
+# class file
+classes/
+*.class
+
+# Package Files #
+*.jar
+!/lib/*.jar
+
+# build Folder
+build/
