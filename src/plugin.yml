@@ -1,0 +1,22 @@
+name: ServerMessage
+main: net.meano.ServerMessage.ServerMessageMain
+version: "1.0"
+api-version: "1.14"
+description: Custom Server Message and Notification!
+author: Meano
+website: www.meano.net
+prefix: SMS
+depend: [PlayerManager]
+
+commands:
+  servermessage:
+    description: Server Message Command
+    aliases: sms
+    permission: sms.cmd
+    permission-message: You not have have permission to use this command.
+    usage: "Usage: /<command> [add|remove]"
+
+permissions:
+  sms.cmd:
+    description: Allows you to use the command /cmd
+    default: op

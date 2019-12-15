@@ -1,0 +1,20 @@
+ClientMessages:
+  Enable: true
+  Join: '&7%Player &9加入了游戏!'
+  Quit: '&7%Player &9离开了游戏!'
+
+Broadcast:
+  Enable: true
+  Random: true
+  PeriodSeconds: 180
+  MessagesMinPlayer: 3
+  MessagesFrequence: 1
+  Messages:
+    - '&9&l进入游戏后尽快合成一张床休息可以设置你游戏中的家。\n&9&l死亡后会在家里重生。'
+    - '&9&l末地会定期重置，为了让更多玩家体验屠龙的过程，\n&9&l已经获得<结束了。>成就的玩家将无法对末影龙造成伤害。'
+
+  NotificationsFrequence: 1
+  Notifications:
+    -  Expire: '2019-06-17 17:18:00'
+       Message: '&9&l因设备升级，今天（2019年6月17日）19:00 起游戏世界暂时关闭，预计开放时间为明天（2019年6月18日）9:00 望周知。'
+  ExpireNotifications: []
